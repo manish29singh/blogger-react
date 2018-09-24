@@ -9,8 +9,11 @@ class Navigation extends Component {
           <Link to="/">Home </Link>
         </div>
         <div className="float-right">
-          <Link to="/login">login </Link>|<Link to="/signup"> signup</Link>
+          <Link to="/add-course">Add Course </Link>
         </div>
+        {/* <div className="float-right">
+          <Link to="/login">login </Link>|<Link to="/signup"> signup</Link>
+        </div> */}
       </div>
     );
   }

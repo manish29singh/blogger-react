@@ -1,5 +1,6 @@
 const bcrypt = require("bcrypt");
 const Users = require("../models/user");
+const Courses = require("../models/course");
 
 module.exports.encryptPassword = async password => {
   try {
@@ -25,6 +26,14 @@ module.exports.matchPassword = async (candidatePassword, hashPassword) => {
 module.exports.userExists = async email => {
   try {
     return await Users.findOne({ email: email });
+  } catch (err) {
+    throw err;
+  }
+};
+
+module.exports.courseExists = async name => {
+  try {
+    return await Courses.findOne({ name: name });
   } catch (err) {
     throw err;
   }

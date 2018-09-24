@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const createUser = payload => {
   return axios
-    .post(`${baseUrl}/signup`, {
+    .post(`${baseUrl}/auth/signup`, {
       name: payload.name,
       email: payload.email,
       password: payload.password

@@ -1,3 +1,3 @@
-export const baseUrl = "http://localhost:8000/auth";
+export const baseUrl = "http://localhost:8001";
 
 export { default as userApi } from "./userApi";

@@ -5,3 +5,10 @@ export const SIGNUP_FAILED = "SIGNUP_FAILED";
 export const ON_LOGIN = "ON_LOGIN";
 export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
 export const LOGIN_FAILED = "LOGIN_FAILED";
+
+export const COURSE_FETCHED = "COURSE_FETCHED";
+export const VIDEO_FETCHED = "VIDEO_FETCHED";
+export const ON_CREATE_COURSE = "ON_CREATE_COURSE";
+export const ON_CREATE_VIDEO = "ON_CREATE_VIDEO";
+export const FETCH_COURSES = "FETCH_COURSES";
+export const ON_FETCH_COURSES = "ON_FETCH_COURSES";

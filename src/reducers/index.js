@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
 import users from "./users";
+import courses from "./courses";
 
 const reducers = combineReducers({
-  users
+  users,
+  courses
 });
 
 export default reducers;
